@@ -128,6 +128,7 @@ ggplot(averagedActivityDataImputed, aes(interval, steps)) +
     geom_line() + 
     facet_grid(dateType ~ .) +
     xlab("5-minute interval") + 
+    
     ylab("avarage number of steps")
 ```
 
